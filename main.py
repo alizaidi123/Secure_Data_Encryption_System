@@ -51,7 +51,7 @@ def insert_data():
                 "fernet_key": key.decode(),
                 "passkey": hashed_passkey
             }
-            stl.success("Data Stored Sucurely")
+            stl.success("Data Stored Securely")
         else:
             stl.error("All Fields Are Required")
 def retrieve_data():
